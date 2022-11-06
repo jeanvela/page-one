@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    height: 70px;
+}
+
+.logo {
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links a {
+    color: white;
+    cursor: pointer; 
+    font-weight: 800;
+}
+
+.navbar-links a:hover {
+    color: #2200C1;
+    transition: color 1s ease; 
+}
